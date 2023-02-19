@@ -19,17 +19,6 @@ Also remember to suffix the command python3 wc.py at the end to run the python s
 
 3. Result will be on the screen as follows :
 
-Files and directories in ' /home/data ' :
-['.DS_Store', '6065_ubuntu1_key.cer', 'Hw1_NeerajMenonManghat.pdf', 'IF.txt', 'Limerick.txt', 'cloud_ass1.png', 'mapreduce-osdi04_google-1.pdf', 'wc.py']
-Attempting to read IF.txt
-Attempting to read Limerick.txt
-Word count for IF:  287
-Word count for Limerick:  32
-Total Count:  319
-Top 3 words in If: 
-[('you', 12), ('can', 12), ('your', 10)]
-Host Name:  da2f7fb3dfce
-IP Address:  172.17.0.2
 <img width="1151" alt="image" src="https://user-images.githubusercontent.com/14856688/219966761-5f994aec-175b-4368-84bd-dd89819a7eab.png">
 
 
