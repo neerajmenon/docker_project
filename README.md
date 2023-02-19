@@ -5,14 +5,19 @@ This repository contains the Image and Source Code for Project 3.
 
 Steps for Running
 -----------------
-1. Download the image and run using
+1. Load the image from the tar file: (uploaded on Canvas or download from the link below)
+https://drive.google.com/file/d/1qgf7eddAUIGfJBMnPooSiRs1wYV93b64/view?usp=sharing
+
+docker load < project3.tar
+
+2.  Run a container from the extracted image :
 
 docker run -it -v </path/to/dir>:/home/data project3_image python3 wc.py
 
-Replace </path/to/dir> with the directory you want to map to /home/data inside the container
-Ensure to suffix the command python3 wc.py at the end to run the python script inside the container as it starts up
+Replace </path/to/dir> with your directory with the files to map to /home/data inside the container
+Also remember to suffix the command python3 wc.py at the end to run the python script inside the container upon start-up
 
-2. Result will be on the screen as follows :
+3. Result will be on the screen as follows :
 
 Files and directories in ' /home/data ' :
 ['.DS_Store', '6065_ubuntu1_key.cer', 'Hw1_NeerajMenonManghat.pdf', 'IF.txt', 'Limerick.txt', 'cloud_ass1.png', 'mapreduce-osdi04_google-1.pdf', 'wc.py']
