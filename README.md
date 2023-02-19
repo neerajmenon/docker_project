@@ -2,11 +2,11 @@
 Project 3 on Docker for CS6065 Cloud Computing
 
 This repository contains the Image and Source Code for Project 3.
+Download Image: https://drive.google.com/file/d/1YXEfvs6b-h8_Q5fXqMDrx2SMzyGmv9EQ/view?usp=sharing
 
 Steps for Running
 -----------------
-1. Load the image from the tar file: (uploaded on Canvas or download from the link below)
-https://drive.google.com/file/d/1qgf7eddAUIGfJBMnPooSiRs1wYV93b64/view?usp=sharing
+1. Load the image from the tar file:
 
 docker load < project3_img.tar
 
