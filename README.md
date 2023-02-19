@@ -8,20 +8,18 @@ Steps for Running
 1. Load the image from the tar file: (uploaded on Canvas or download from the link below)
 https://drive.google.com/file/d/1qgf7eddAUIGfJBMnPooSiRs1wYV93b64/view?usp=sharing
 
-docker load < project3.tar
-<br>
-<img width="493" alt="image" src="https://user-images.githubusercontent.com/14856688/219966811-a9d84a6a-c688-4e7f-adbf-1dad0703decf.png">
+docker load < project3_img.tar
 
 
 2.  Run a container from the extracted image :
 
-docker run -it -v </path/to/dir>:/home/data project3_image python3 wc.py
+docker run -it -v </path/to/dir>:/home/data project3_img python3 wc.py
 
 Replace </path/to/dir> with your directory with the files to map to /home/data inside the container
-Also remember to suffix the command python3 wc.py at the end to run the python script inside the container upon start-up
+Also remember to suffix the command python3 wc.py at the end to run the python script inside the container upon start-up.
+The container reads the files from /home/data and writes results to /home/output/result.txt before printing its contents onto the shell
 
-
-<img width="1151" alt="image" src="https://user-images.githubusercontent.com/14856688/219966761-5f994aec-175b-4368-84bd-dd89819a7eab.png">
+<img width="1142" alt="image" src="https://user-images.githubusercontent.com/14856688/219968378-31a2a926-487c-4dd1-9507-20f92de5be55.png">
 
 
 
