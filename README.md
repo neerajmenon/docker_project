@@ -9,6 +9,8 @@ Steps for Running
 https://drive.google.com/file/d/1qgf7eddAUIGfJBMnPooSiRs1wYV93b64/view?usp=sharing
 
 docker load < project3.tar
+<img width="493" alt="image" src="https://user-images.githubusercontent.com/14856688/219966811-a9d84a6a-c688-4e7f-adbf-1dad0703decf.png">
+
 
 2.  Run a container from the extracted image :
 
