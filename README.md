@@ -20,7 +20,6 @@ docker run -it -v </path/to/dir>:/home/data project3_image python3 wc.py
 Replace </path/to/dir> with your directory with the files to map to /home/data inside the container
 Also remember to suffix the command python3 wc.py at the end to run the python script inside the container upon start-up
 
-3. Result will be on the screen as follows :
 
 <img width="1151" alt="image" src="https://user-images.githubusercontent.com/14856688/219966761-5f994aec-175b-4368-84bd-dd89819a7eab.png">
 
