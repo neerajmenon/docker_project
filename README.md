@@ -18,7 +18,7 @@ Replace </path/to/dir> with your directory with the files to map to /home/data i
 Also remember to suffix the command python3 wc.py at the end to run the python script inside the container upon start-up
 
 3. Result will be on the screen as follows :
-
+'''
 Files and directories in ' /home/data ' :
 ['.DS_Store', '6065_ubuntu1_key.cer', 'Hw1_NeerajMenonManghat.pdf', 'IF.txt', 'Limerick.txt', 'cloud_ass1.png', 'mapreduce-osdi04_google-1.pdf', 'wc.py']
 Attempting to read IF.txt
@@ -30,6 +30,6 @@ Top 3 words in If:
 [('you', 12), ('can', 12), ('your', 10)]
 Host Name:  da2f7fb3dfce
 IP Address:  172.17.0.2
-
+'''
 
 
